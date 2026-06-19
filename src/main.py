@@ -1,7 +1,8 @@
-from dotenv import load_dotenv
-import os
+from src.loader import load_excel
+from src.validator import validate
 
-load_dotenv()
+df = load_excel("data/profitandloss.xlsx")
 
-print("API Key:", os.getenv("API_KEY"))
-print("Database:", os.getenv("DB_NAME"))
+result = validate(df, "profitandloss")
+
+print(result)
