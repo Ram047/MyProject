@@ -1,0 +1,39 @@
+============================================================
+5 RANDOM COMPANIES
+============================================================
+         id            company_name
+0     TITAN     Titan Company Ltd\n
+1        LT     Larsen & Toubro Ltd
+2     TECHM       Tech Mahindra Ltd
+3  SHREECEM        Shree Cement Ltd
+4       BEL  Bharat Electronics Ltd
+
+============================================================
+YEAR COVERAGE
+============================================================
+
+Company: TITAN
+  first_year last_year  total_years
+0   Mar 2013  Sep 2024           13
+
+Company: LT
+  first_year last_year  total_years
+0   Mar 2013  Sep 2024           13
+
+Company: TECHM
+  first_year last_year  total_years
+0   Mar 2013  Sep 2024           26
+
+Company: SHREECEM
+  first_year last_year  total_years
+0   Jun 2013  Sep 2024           13
+
+Company: BEL
+  first_year last_year  total_years
+0   Mar 2013  Sep 2024           13
+
+============================================================
+COMPANIES WITH LESS THAN 5 YEARS OF DATA
+============================================================
+  company_id  years
+0     JIOFIN      3

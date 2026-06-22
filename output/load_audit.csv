@@ -1,0 +1,12 @@
+Table,Rows Loaded,Status
+companies,92,SUCCESS
+balancesheet,1312,SUCCESS
+cashflow,1187,SUCCESS
+profitandloss,1276,SUCCESS
+analysis,20,SUCCESS
+documents,1585,SUCCESS
+stock_prices,5520,SUCCESS
+market_cap,552,SUCCESS
+sectors,92,SUCCESS
+peer_groups,56,SUCCESS
+prosandcons,16,SUCCESS
