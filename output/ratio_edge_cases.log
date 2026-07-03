@@ -1,0 +1,423 @@
+DAY 13 - RATIO EDGE CASE REVIEW
+======================================================================
+
+Financials companies: 23
+D/E warning policy: Suppressed for Financials sector
+
+ROE analytics policy: Ratio engine value is used for analytics.
+Source ROE is retained for display/reference only.
+
+======================================================================
+Company: ADANIENT
+Metric: ROCE
+Computed: 6.51
+Source: 11.6
+Difference: 5.09
+Category: version difference
+----------------------------------------------------------------------
+Company: ADANIGREEN
+Metric: ROCE
+Computed: 4.58
+Source: 96.5
+Difference: 91.92
+Category: formula discrepancy
+----------------------------------------------------------------------
+Company: ADANIPOWER
+Metric: ROCE
+Computed: 26.4
+Source: 32.2
+Difference: 5.8
+Category: version difference
+----------------------------------------------------------------------
+Company: AXISBANK
+Metric: ROCE
+Computed: 1.07
+Source: 7.06
+Difference: 5.99
+Category: version difference
+----------------------------------------------------------------------
+Company: BAJAJFINSV
+Metric: ROCE
+Computed: 5.76
+Source: 21.14
+Difference: 15.38
+Category: formula discrepancy
+----------------------------------------------------------------------
+Company: BAJFINANCE
+Metric: ROCE
+Computed: 3.92
+Source: 11.9
+Difference: 7.98
+Category: version difference
+----------------------------------------------------------------------
+Company: BEL
+Metric: ROCE
+Computed: 3378.11
+Source: 34.6
+Difference: 3343.51
+Category: formula discrepancy
+----------------------------------------------------------------------
+Company: BOSCHLTD
+Metric: ROCE
+Computed: 28.27
+Source: 20.6
+Difference: 7.67
+Category: version difference
+----------------------------------------------------------------------
+Company: CANBK
+Metric: ROCE
+Computed: 1.2
+Source: 6.63
+Difference: 5.43
+Category: version difference
+----------------------------------------------------------------------
+Company: CHOLAFIN
+Metric: ROCE
+Computed: 2.87
+Source: 10.4
+Difference: 7.53
+Category: version difference
+----------------------------------------------------------------------
+Company: CIPLA
+Metric: ROCE
+Computed: 65.76
+Source: 22.8
+Difference: 42.96
+Category: formula discrepancy
+----------------------------------------------------------------------
+Company: COALINDIA
+Metric: ROCE
+Computed: 82.67
+Source: 63.6
+Difference: 19.07
+Category: formula discrepancy
+----------------------------------------------------------------------
+Company: GODREJCP
+Metric: ROCE
+Computed: 2.74
+Source: 26.49
+Difference: 23.75
+Category: formula discrepancy
+----------------------------------------------------------------------
+Company: HAL
+Metric: ROCE
+Computed: 3506.04
+Source: 38.9
+Difference: 3467.14
+Category: formula discrepancy
+----------------------------------------------------------------------
+Company: HDFCBANK
+Metric: ROCE
+Computed: 1.4
+Source: 7.67
+Difference: 6.27
+Category: version difference
+----------------------------------------------------------------------
+Company: HDFCLIFE
+Metric: ROCE
+Computed: 606.66
+Source: 6.61
+Difference: 600.05
+Category: formula discrepancy
+----------------------------------------------------------------------
+Company: HEROMOTOCO
+Metric: ROCE
+Computed: 162.66
+Source: 29.1
+Difference: 133.56
+Category: formula discrepancy
+----------------------------------------------------------------------
+Company: HINDALCO
+Metric: ROCE
+Computed: 108.2
+Source: 11.3
+Difference: 96.9
+Category: formula discrepancy
+----------------------------------------------------------------------
+Company: HINDUNILVR
+Metric: ROCE
+Computed: 88.59
+Source: 27.2
+Difference: 61.39
+Category: formula discrepancy
+----------------------------------------------------------------------
+Company: ICICIBANK
+Metric: ROCE
+Computed: 1.21
+Source: 7.6
+Difference: 6.39
+Category: version difference
+----------------------------------------------------------------------
+Company: ICICIGI
+Metric: ROCE
+Computed: 130.72
+Source: 22.5
+Difference: 108.22
+Category: formula discrepancy
+----------------------------------------------------------------------
+Company: ICICIPRULI
+Metric: ROCE
+Computed: 770.38
+Source: 8.75
+Difference: 761.63
+Category: formula discrepancy
+----------------------------------------------------------------------
+Company: INDIGO
+Metric: ROCE
+Computed: 5166.6
+Source: 24.5
+Difference: 5142.1
+Category: formula discrepancy
+----------------------------------------------------------------------
+Company: INDUSINDBK
+Metric: ROCE
+Computed: 1.67
+Source: 7.93
+Difference: 6.26
+Category: version difference
+----------------------------------------------------------------------
+Company: IRCTC
+Metric: ROCE
+Computed: 43.56
+Source: 53.8
+Difference: 10.24
+Category: version difference
+----------------------------------------------------------------------
+Company: KOTAKBANK
+Metric: ROCE
+Computed: 1.38
+Source: 7.86
+Difference: 6.48
+Category: version difference
+----------------------------------------------------------------------
+Company: LICI
+Metric: ROCE
+Computed: 48.62
+Source: 63.79
+Difference: 15.17
+Category: formula discrepancy
+----------------------------------------------------------------------
+Company: LT
+Metric: ROCE
+Computed: 103.41
+Source: 17.18
+Difference: 86.23
+Category: formula discrepancy
+----------------------------------------------------------------------
+Company: M&M
+Metric: ROCE
+Computed: 11.05
+Source: 26.98
+Difference: 15.93
+Category: formula discrepancy
+----------------------------------------------------------------------
+Company: NESTLEIND
+Metric: ROCE
+Computed: 133.65
+Source: 185.43
+Difference: 51.78
+Category: formula discrepancy
+----------------------------------------------------------------------
+Company: PFC
+Metric: ROCE
+Computed: -2.38
+Source: 9.96
+Difference: 12.34
+Category: version difference
+----------------------------------------------------------------------
+Company: PNB
+Metric: ROCE
+Computed: -77.74
+Source: 1.63
+Difference: 79.37
+Category: formula discrepancy
+----------------------------------------------------------------------
+Company: RECLTD
+Metric: ROCE
+Computed: 3.23
+Source: 10.0
+Difference: 6.77
+Category: version difference
+----------------------------------------------------------------------
+Company: SHREECEM
+Metric: ROCE
+Computed: 21.53
+Source: 14.8
+Difference: 6.73
+Category: version difference
+----------------------------------------------------------------------
+Company: SHRIRAMFIN
+Metric: ROCE
+Computed: -1.94
+Source: 11.3
+Difference: 13.24
+Category: version difference
+----------------------------------------------------------------------
+Company: TATAMOTORS
+Metric: ROCE
+Computed: 26.6
+Source: 20.1
+Difference: 6.5
+Category: version difference
+----------------------------------------------------------------------
+Company: TECHM
+Metric: ROCE
+Computed: 17.7
+Source: 11.9
+Difference: 5.8
+Category: version difference
+----------------------------------------------------------------------
+Company: TITAN
+Metric: ROCE
+Computed: 16.59
+Source: 22.7
+Difference: 6.11
+Category: version difference
+----------------------------------------------------------------------
+Company: TORNTPHARM
+Metric: ROCE
+Computed: 29.72
+Source: 23.2
+Difference: 6.52
+Category: version difference
+----------------------------------------------------------------------
+Company: TRENT
+Metric: ROCE
+Computed: 39.74
+Source: 23.8
+Difference: 15.94
+Category: formula discrepancy
+----------------------------------------------------------------------
+Company: ADANIENT
+Metric: ROE
+Computed: 7.96
+Source: 13.64
+Difference: 5.68
+Category: version difference
+----------------------------------------------------------------------
+Company: ADANIPOWER
+Metric: ROE
+Computed: 37.23
+Source: 57.1
+Difference: 19.87
+Category: formula discrepancy
+----------------------------------------------------------------------
+Company: BAJAJFINSV
+Metric: ROE
+Computed: 22.82
+Source: 11.72
+Difference: 11.1
+Category: version difference
+----------------------------------------------------------------------
+Company: BAJFINANCE
+Metric: ROE
+Computed: 16.65
+Source: 22.1
+Difference: 5.45
+Category: version difference
+----------------------------------------------------------------------
+Company: BEL
+Metric: ROE
+Computed: 4379.12
+Source: 26.3
+Difference: 4352.82
+Category: formula discrepancy
+----------------------------------------------------------------------
+Company: BHARTIARTL
+Metric: ROE
+Computed: 9.83
+Source: 14.9
+Difference: 5.07
+Category: version difference
+----------------------------------------------------------------------
+Company: BPCL
+Metric: ROE
+Computed: 34.83
+Source: 41.9
+Difference: 7.07
+Category: version difference
+----------------------------------------------------------------------
+Company: BRITANNIA
+Metric: ROE
+Computed: 66.48
+Source: 57.1
+Difference: 9.38
+Category: version difference
+----------------------------------------------------------------------
+Company: COALINDIA
+Metric: ROE
+Computed: 38.85
+Source: 52.0
+Difference: 13.15
+Category: version difference
+----------------------------------------------------------------------
+Company: GODREJCP
+Metric: ROE
+Computed: -4.61
+Source: 6.77
+Difference: 11.38
+Category: version difference
+----------------------------------------------------------------------
+Company: HAL
+Metric: ROE
+Computed: 3669.08
+Source: 28.9
+Difference: 3640.18
+Category: formula discrepancy
+----------------------------------------------------------------------
+Company: IRCTC
+Metric: ROE
+Computed: 31.54
+Source: 40.4
+Difference: 8.86
+Category: version difference
+----------------------------------------------------------------------
+Company: LICI
+Metric: ROE
+Computed: 41.91
+Source: 63.61
+Difference: 21.7
+Category: formula discrepancy
+----------------------------------------------------------------------
+Company: LT
+Metric: ROE
+Computed: 73.77
+Source: 10.49
+Difference: 63.28
+Category: formula discrepancy
+----------------------------------------------------------------------
+Company: NESTLEIND
+Metric: ROE
+Computed: 98.57
+Source: 135.61
+Difference: 37.04
+Category: formula discrepancy
+----------------------------------------------------------------------
+Company: PNB
+Metric: ROE
+Computed: 61.32
+Source: 8.7
+Difference: 52.62
+Category: formula discrepancy
+----------------------------------------------------------------------
+Company: TATAMOTORS
+Metric: ROE
+Computed: 31.47
+Source: 49.4
+Difference: 17.93
+Category: formula discrepancy
+----------------------------------------------------------------------
+Company: TATASTEEL
+Metric: ROE
+Computed: -5.45
+Source: 6.55
+Difference: 12.0
+Category: version difference
+----------------------------------------------------------------------
+Company: TCS
+Metric: ROE
+Computed: 45.42
+Source: 0.52
+Difference: 44.9
+Category: data source issue
+----------------------------------------------------------------------
