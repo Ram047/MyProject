@@ -1,32 +1,146 @@
 import streamlit as st
-import os
+import pandas as pd
+import sqlite3
 
-st.set_page_config(layout="wide")
+st.set_page_config(
+    page_title="Annual Reports",
+    layout="wide"
+)
 
-st.title("📄 Reports")
+DB_PATH = "database/stock_analysis.db"
 
-files = [
-    "output/screener_output.xlsx",
-    "output/peer_comparison.xlsx",
-    "output/day16_preset_validation.txt",
-    "output/ratio_edge_cases.log",
-    "output/sprint2_retrospective.md",
-    "output/sprint3_retrospective.md",
+
+# --------------------------------------------------
+# Database
+# --------------------------------------------------
+
+@st.cache_data(ttl=600)
+def load_reports():
+
+    conn = sqlite3.connect(DB_PATH)
+
+    query = """
+    SELECT
+
+        d.company_id,
+
+        c.company_name,
+
+        d.year,
+
+        d.annual_report
+
+    FROM documents d
+
+    LEFT JOIN companies c
+        ON d.company_id=c.id
+
+    ORDER BY
+        c.company_name,
+        d.year DESC
+    """
+
+    df = pd.read_sql(query, conn)
+
+    conn.close()
+
+    return df
+
+
+reports = load_reports()
+
+st.title("📄 Annual Reports")
+
+reports["display"] = (
+
+    reports["company_name"]
+
+    + " ("
+
+    + reports["company_id"]
+
+    + ")"
+
+)
+
+search = st.text_input(
+    "Search Company"
+)
+
+if search:
+
+    matches = [
+
+        x for x in reports["display"].unique()
+
+        if search.lower() in x.lower()
+
+    ]
+
+else:
+
+    matches = sorted(
+
+        reports["display"].unique()
+
+    )
+
+if len(matches) == 0:
+
+    st.warning(
+        "Ticker not found."
+    )
+
+    st.stop()
+
+selected = st.selectbox(
+
+    "Company",
+
+    matches
+
+)
+
+company_reports = reports[
+    reports["display"] == selected
 ]
 
-available = []
+st.markdown("---")
 
-for file in files:
+st.subheader("Available Annual Reports")
 
-    if os.path.exists(file):
-        available.append(file)
+for _, row in company_reports.iterrows():
 
-st.subheader("Generated Reports")
+    year = row["year"]
 
-for file in available:
+    url = row["annual_report"]
 
-    st.success(file)
+    col1, col2 = st.columns([1,5])
 
-st.write(
-    f"Total reports available: {len(available)}"
+    with col1:
+
+        st.write(year)
+
+    with col2:
+
+        if pd.isna(url) or str(url).strip() == "":
+
+            st.markdown(
+
+                "<span style='color:white;background:red;padding:4px;'>Report Unavailable</span>",
+
+                unsafe_allow_html=True
+
+            )
+
+        else:
+
+            st.markdown(
+
+                f"[📥 Open Annual Report]({url})"
+
+            )
+
+st.success(
+    "Annual reports loaded successfully."
 )
